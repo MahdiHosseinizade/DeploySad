@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(244, 245, 245);
+  font-family:IranYekan ;
+  direction: rtl;
+  background-color: #dbeafe68;
+}
+
+.container {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.notfound{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
