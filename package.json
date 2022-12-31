@@ -25,6 +25,7 @@
     "cors": "^2.8.5",
     "date-fns": "^2.29.3",
     "date-fns-jalali": "^2.29.3-0",
+    "dayjs": "^1.11.7",
     "formik": "^2.2.9",
     "jalali-moment": "^3.3.11",
     "json-server": "^0.17.0",
@@ -54,8 +55,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
